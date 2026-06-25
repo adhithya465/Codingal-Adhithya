@@ -1,159 +1,94 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>My Dream School Timetable</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Media Adventure</title>
 </head>
+
 <body>
 
-  <h1>My Dream School Timetable</h1>
 
-  <p>
-    This webpage shows my dream school timetable, favourite subjects, school activities,
-    and useful learning links.
-  </p>
+    <h1>Adhithya's Media Adventure</h1>
 
-  <h2>Useful Learning Links</h2>
+    <p>
+      Welcome to my media adventure! I enjoy basketball, fishing, and coding,
+      and this webpage highlights some of my favorite things.
+    </p>
 
-  <p>
-    Explore fun science topics here:
-    <a href="https://www.nasa.gov/" target="_blank">NASA Website</a>
-  </p>
+    <hr>
 
-  <p>
-    Learn more about coding here:
-    <a href="https://code.org/" target="_blank">Code.org</a>
-  </p>
+    <h2>Basketball Gallery</h2>
 
-  <p>
-    Check out YouTube for videos and learning:
-    <a href="https://www.youtube.com/" target="_blank">YouTube</a>
-  </p>
+    <p>
+      These images show some of my favorite interests and activities.
+    </p>
 
-  <h2>My Morning School Routine</h2>
+    <img src="basketball.png" alt="A basketball game in action" width="300" height="300">
+    <img src="fishing.png" alt="Fishing by the water" width="300" height="300">
+    <img src="coding.png" alt="Coding on a computer" width="300" height="300">
 
-  <ol>
-    <li>Wake up and get out of bed.</li>
-    <li>Brush my teeth.</li>
-    <li>Take a shower.</li>
-    <li>Get dressed.</li>
-    <li>Eat a healthy breakfast.</li>
-    <li>Reach school on time.</li>
-    <li>Attend the morning assembly.</li>
-  </ol>
+    <hr>
 
-  <h2>Things I Want in My Dream School</h2>
+    <h2>Music and Basketball Highlights</h2>
 
-  <ul>
-    <li>Big basketball gyms</li>
-    <li>Fishing pond</li>
-    <li>Gaming room</li>
-    <li>Cafe to hang out</li>
-    <li>Field trips</li>
-  </ul>
+    <p>
+      One of my favorite songs is <b>Inside Out by Duster</b>. Listen to the music
+      and enjoy some basketball highlights from great players.
+    </p>
 
-  <h2>School Subject Descriptions</h2>
+    <audio controls loop>
+      <source src="music.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
 
-  <dl>
-    <dt>Mathematics</dt>
-    <dd>A subject where we learn numbers, patterns, shapes, and problem-solving.</dd>
+    <br><br>
 
-    <dt>Science</dt>
-    <dd>A subject where we learn about nature, experiments, space, animals, and inventions.</dd>
+    <video width="500" height="350" controls poster="poster.png" loop>
+      <source src="basketball_highlights.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
 
-    <dt>Coding</dt>
-    <dd>A subject where we learn how to create games, apps, websites, and animations.</dd>
+    <hr>
 
-    <dt>Art</dt>
-    <dd>A subject where we express our ideas through drawing, colouring, and design.</dd>
-  </dl>
+    <h2>Basketball Game Zone</h2>
 
-  <h2>My Dream Timetable</h2>
+    <p>
+      Play a basketball-themed Scratch game that involves jumping
+    </p>
 
-  <table border="3">
-    <tr>
-      <th>Day</th>
-      <th>Period 1</th>
-      <th>Period 2</th>
-      <th>Period 3</th>
-      <th>Period 4</th>
-    </tr>
+    <iframe
+      src="https://scratch.mit.edu/projects/60917032/embed"
+      allowtransparency="true"
+      width="500"
+      height="400"
+      frameborder="0"
+      scrolling="no"
+      allowfullscreen>
+    </iframe>
 
-    <tr>
-      <td>Monday</td>
-      <td>Math</td>
-      <td>Science</td>
-      <td>Coding</td>
-      <td>Sports</td>
-    </tr>
+    <hr>
 
-    <tr>
-      <td>Tuesday</td>
-      <td>English</td>
-      <td>Math</td>
-      <td>Art</td>
-      <td>Music</td>
-    </tr>
+    <h2>About Me</h2>
 
-    <tr>
-      <td>Wednesday</td>
-      <td>Science</td>
-      <td>Coding</td>
-      <td>Library</td>
-      <td>Sports</td>
-    </tr>
+    <p>
+      My name is Adhithya Natarajan. I am 15 years old and live in Oklahoma.
+      I enjoy basketball, fishing, and coding. One of my goals is to build my
+      own app in the future and continue improving my programming skills.
+    </p>
 
-    <tr>
-      <td>Thursday</td>
-      <td>Social Studies</td>
-      <td>English</td>
-      <td>Math</td>
-      <td>Art</td>
-    </tr>
+    <hr>
 
-    <tr>
-      <td>Friday</td>
-      <td>Coding</td>
-      <td>Science</td>
-      <td>Music</td>
-      <td>Games</td>
-    </tr>
-  </table>
+    <h2>Mission Complete!</h2>
 
-  <h2>My Favourite School Activities</h2>
+    <p>
+      I used image, audio, video, and iframe tags to create my personalized
+      media adventure webpage.
+    </p>
 
-  <table border="2">
-    <tr>
-      <th>Activity</th>
-      <th>Where It Happens</th>
-      <th>Why I Like It</th>
-    </tr>
-
-    <tr>
-      <td>Basketball</td>
-      <td>Big Gym</td>
-      <td>I like it because it’s physical activity with friends.</td>
-    </tr>
-
-    <tr>
-      <td>Fishing</td>
-      <td>Fishing Pond at school</td>
-      <td>I can fish and relax in nature.</td>
-    </tr>
-
-    <tr>
-      <td>Gaming Room</td>
-      <td>School Gaming Room</td>
-      <td>It’s fun to play games with friends.</td>
-    </tr>
-
-    <tr>
-      <td>Cafe</td>
-      <td>School Cafe</td>
-      <td>It’s tasty and a chill hangout spot.</td>
-    </tr>
-  </table>
+  
 
 </body>
+
 </html>
