@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Food and Nutrition Blog</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Fuel for Basketball: Food and Nutrition Blog</h1>
+
+    <nav>
+      <a href="#healthy-plate">Healthy Plate</a> |
+      <a href="#nutrition-tips">Nutrition Tips</a> |
+      <a href="#video">Watch Video</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="healthy-plate">
+      <h2>Building a Healthy Plate</h2>
+
+      <article>
+        <h3>Nutrition for Basketball Players</h3>
+
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=300&h=200&fit=crop"
+            alt="Healthy meal with fruits, vegetables, and protein"
+            width="300"
+            height="200"
+          >
+          <figcaption>
+            Athletes need balanced meals to stay energized and perform at their best.
+          </figcaption>
+        </figure>
+
+        <p>
+          Basketball players need healthy meals that include protein, fruits,
+          vegetables, and whole grains. Good nutrition helps improve energy,
+          recovery, and performance on the court.
+        </p>
+
+        <p>
+          Learn more here:
+          <a href="https://www.myplate.gov/" target="_blank">
+            MyPlate Nutrition Guide
+          </a>
+        </p>
+      </article>
+
+      <article>
+        <h3>Smart Snacks Before Practice</h3>
+
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=300&h=200&fit=crop"
+            alt="Healthy snacks including fruit and nuts"
+            width="300"
+            height="200"
+          >
+          <figcaption>
+            Healthy snacks help athletes stay fueled throughout the day.
+          </figcaption>
+        </figure>
+
+        <p>
+          Good pre-practice snacks include bananas, yogurt, nuts, and whole-grain foods.
+          These foods provide lasting energy without making you feel sluggish.
+        </p>
+
+        <p>
+          Read more here:
+          <a href="https://www.nutrition.gov/" target="_blank">
+            Nutrition.gov
+          </a>
+        </p>
+      </article>
+    </section>
+
+    <section id="nutrition-tips">
+      <h2>Nutrition Tips for Students</h2>
+
+      <article>
+        <h3>Drink More Water</h3>
+
+        <p>
+          Water keeps your body hydrated and helps athletes perform better.
+          Carrying a water bottle during school and sports is a good habit.
+        </p>
+      </article>
+
+      <article>
+        <h3>Choose Healthy Foods</h3>
+
+        <p>
+          Try to eat colorful fruits and vegetables every day. Different colors
+          provide different nutrients that help your body stay healthy.
+        </p>
+
+        <p>
+          Learn more:
+          <a href="https://www.who.int/news-room/fact-sheets/detail/healthy-diet" target="_blank">
+            WHO Healthy Diet Guide
+          </a>
+        </p>
+      </article>
+    </section>
+
+    <aside>
+      <h2>Quick Nutrition Note</h2>
+
+      <div>
+        <p>
+          A simple rule for athletes: drink water, eat balanced meals, and avoid
+          too many sugary drinks before games or practice.
+        </p>
+
+        <p>
+          Share a healthy recipe:
+          <a href="https://forms.gle/" target="_blank">
+            Recipe Submission Form
+          </a>
+        </p>
+      </div>
+    </aside>
+
+    <section id="video">
+      <h2>Watch and Learn About Nutrition</h2>
+
+      <p>
+        This video explains healthy eating habits and how nutrition helps support
+        an active lifestyle.
+      </p>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/xyQY8a-ng6g"
+        title="Nutrition Video"
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section id="contact">
+      <h2>Contact the Nutrition Blog Team</h2>
+
+      <p>
+        Have a healthy recipe or nutrition tip? Share it with us.
+      </p>
+
+      <p>
+        Email:
+        <a href="mailto:nutritionblog@example.com">
+          nutritionblog@example.com
+        </a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Fuel for Basketball Nutrition Blog. All rights reserved.</p>
+
+    <p>
+      Learn more about healthy habits:
+      <a href="https://www.nutrition.gov/" target="_blank">
+        Nutrition.gov
+      </a>
+    </p>
+  </footer>
+
+</body>
+</html>
