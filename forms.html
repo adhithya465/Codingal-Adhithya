@@ -1,0 +1,117 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>🎮 Xbox & PS5 Game Survey</title>
+  </head>
+  <body>
+
+    <h1>🎮 Xbox & PS5 Game Survey</h1>
+    <p>Tell us about your favorite games on Xbox and PlayStation 5!</p>
+    <hr>
+
+    <form>
+
+      <fieldset>
+        <legend>Player Details</legend>
+
+        <label>Your Name</label><br>
+        <input type="text" id="name" placeholder="Enter your full name"><br><br>
+
+        <label>Player ID</label><br>
+        <input type="password" id="playerid" placeholder="Enter your Player ID"><br><br>
+
+        <label>Today's Date</label><br>
+        <input type="date" id="date"><br>
+
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Favorite Console</legend>
+
+        <label>Choose Your Main Console</label><br>
+        <select id="console">
+          <option value="">-- Select a Console --</option>
+          <option value="xbox">Xbox Series X|S</option>
+          <option value="ps5">PlayStation 5</option>
+          <option value="both">Both</option>
+        </select><br><br>
+
+        <label>Which console do you play the most?</label><br>
+        <input type="radio" name="favoriteconsole" value="xbox"> Xbox Series X|S<br>
+        <input type="radio" name="favoriteconsole" value="ps5"> PlayStation 5<br>
+        <input type="radio" name="favoriteconsole" value="both"> Both Equally<br>
+
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Popular Xbox Games</legend>
+
+        <input type="checkbox" value="forza"> Forza Horizon 5<br>
+        <input type="checkbox" value="halo"> Halo Infinite<br>
+        <input type="checkbox" value="gears"> Gears 5<br>
+        <input type="checkbox" value="flight"> Microsoft Flight Simulator<br>
+        <input type="checkbox" value="minecraft"> Minecraft<br>
+        <input type="checkbox" value="seaofthieves"> Sea of Thieves<br>
+        <input type="checkbox" value="cod"> Call of Duty: Black Ops 7<br>
+        <input type="checkbox" value="fortnite"> Fortnite<br>
+        <input type="checkbox" value="gta6"> Grand Theft Auto VI<br>
+
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Popular PS5 Games</legend>
+
+        <input type="checkbox" value="spiderman2"> Marvel's Spider-Man 2<br>
+        <input type="checkbox" value="ghost"> Ghost of Yōtei<br>
+        <input type="checkbox" value="astrobot"> Astro Bot<br>
+        <input type="checkbox" value="godofwar"> God of War Ragnarök<br>
+        <input type="checkbox" value="horizon"> Horizon Forbidden West<br>
+        <input type="checkbox" value="deathstranding2"> Death Stranding 2: On the Beach<br>
+        <input type="checkbox" value="stellarblade"> Stellar Blade<br>
+        <input type="checkbox" value="fortnite"> Fortnite<br>
+        <input type="checkbox" value="gta6"> Grand Theft Auto VI<br>
+
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Your Favorite Game</legend>
+
+        <label>Choose Your #1 Favorite Game</label><br>
+        <select id="favoritegame">
+          <option value="">-- Select a Game --</option>
+          <option>Grand Theft Auto VI</option>
+          <option>Fortnite</option>
+          <option>Call of Duty: Black Ops 7</option>
+          <option>Marvel's Spider-Man 2</option>
+          <option>Ghost of Yōtei</option>
+          <option>Astro Bot</option>
+          <option>God of War Ragnarök</option>
+          <option>Forza Horizon 5</option>
+          <option>Halo Infinite</option>
+          <option>Minecraft</option>
+          <option>Sea of Thieves</option>
+          <option>Elden Ring</option>
+        </select><br><br>
+
+        <label>Why is it your favorite?</label><br>
+        <textarea id="reason" rows="4" cols="40" placeholder="Tell us why this game is your favorite..."></textarea>
+
+      </fieldset>
+
+      <br>
+
+      <input type="submit" value="Submit Survey">
+
+    </form>
+
+  </body>
+</html>
