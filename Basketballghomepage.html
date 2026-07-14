@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Basketball Homepage</title>
+
+  <style>
+    /* Universal selector: applies basic settings to the full page */
+    * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Body background uses colour, image pattern, repeat, position, and attachment */
+    body {
+      background-color: #ff8c00;
+      background-image: radial-gradient(circle, white 2px, transparent 3px);
+      background-size: 40px 40px;
+      background-repeat: repeat;
+      background-position: top center;
+      background-attachment: fixed;
+      color: white;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: white;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      color: #fff8dc;
+    }
+
+    .player-card {
+      width: 400px;
+      margin: auto;
+      padding: 20px;
+      border: 3px solid white;
+      border-radius: 20px;
+      background-image: linear-gradient(to bottom right, #ff6600, #ffcc00);
+    }
+
+    .basketball {
+      font-size: 70px;
+      animation: bounceBall 2s infinite alternate;
+    }
+
+    #player {
+      font-size: 42px;
+      font-weight: bold;
+      color: darkred;
+    }
+
+    .details {
+      font-size: 18px;
+      color: white;
+    }
+
+    .favorites-section {
+      width: 600px;
+      margin: auto;
+      margin-top: 20px;
+      padding: 20px;
+      border: 3px solid white;
+      border-radius: 15px;
+      background-image: radial-gradient(circle, white, orange);
+      color: black;
+    }
+
+    .favorites-title {
+      color: darkred;
+    }
+
+    .favorite {
+      border: 2px solid darkorange;
+      padding: 8px;
+      margin: 8px;
+      font-size: 17px;
+      color: black;
+    }
+
+    /* Group selector */
+    h2, h3 {
+      color: white;
+    }
+
+    /* CSS Animation */
+    @keyframes bounceBall {
+      from {
+        transform: translateY(0);
+      }
+
+      to {
+        transform: translateY(20px);
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <h1>My Basketball Homepage</h1>
+
+  <p class="subtitle">
+    Welcome to my basketball page! Here are some of my favorite players and teams.
+  </p>
+
+  <div class="player-card">
+
+    <h2>Favorite Sport</h2>
+
+    <div class="basketball">🏀</div>
+
+    <p id="player">Basketball</p>
+
+    <p class="details">Favorite Team: Oklahoma City Thunder</p>
+    <p class="details">Favorite Player: Stephen Curry</p>
+    <p class="details">Favorite Activity: Playing Basketball</p>
+    <p class="details">Dream Goal: Build an App for Basketball Fans</p>
+
+  </div>
+
+  <h2>My Favorite NBA Players</h2>
+
+  <div class="favorites-section">
+
+    <h3 class="favorites-title">Top 5 Players</h3>
+
+    <p class="favorite">Stephen Curry</p>
+    <p class="favorite">LeBron James</p>
+    <p class="favorite">Michael Jordan</p>
+    <p class="favorite">Kobe Bryant</p>
+    <p class="favorite">Kevin Durant</p>
+
+  </div>
+
+</body>
+</html>
